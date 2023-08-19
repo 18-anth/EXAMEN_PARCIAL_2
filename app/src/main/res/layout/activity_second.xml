@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SeconMainActivity">
+
+        <TextView
+            android:id="@+id/editTextName"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextLastName"
+            android:layout_alignParentEnd="true"
+            android:hint="Nombre"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <TextView
+            android:id="@+id/editTextLastName"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextEmail"
+            android:layout_alignParentEnd="true"
+            android:hint="Apellido"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <TextView
+            android:id="@+id/editTextEmail"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editTextYear"
+            android:layout_alignParentEnd="true"
+            android:hint="Email"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="314dp" />
+
+        <TextView
+            android:id="@+id/editTextYear"
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonSubmit"
+            android:layout_alignParentEnd="true"
+            android:hint="Edad"
+            android:inputType="number"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="282dp"
+            android:layout_height="68dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="Grabar a Firebase"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="522dp" />
+
+</LinearLayout>
